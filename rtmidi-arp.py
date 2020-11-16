@@ -47,7 +47,7 @@ else:
     exit()
 
 # Add octave
-s = s + [x + 12 for x in s if x != s[0]]
+s = s + [x + 12 for x in s if x != 0]
 
 # Don't repeat notes
 rx, rx1, rx2, rx3, rx4, rx5, rx6 = s[0], s[1], s[2], s[3], s[4], s[5], s[6]
